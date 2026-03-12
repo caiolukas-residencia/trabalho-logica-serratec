@@ -1,0 +1,8 @@
+Este repositório visa armazenar os trabalhos propostos na disciplina de Lógica de Programação da residência 2026.1 do Serratec do grupo composto por:
+
+- CAIO LUKAS MONTEIRO MARQUES ROCHA
+- EMANUEL VALINHOS DE OLIVEIRA ROCHA
+- IVY THEDIM BASTOS
+- JOSÉ RICARDO DE MELLO
+- PEDRO PINTO MARTINS DE SOUZA
+- YASMIM FERREIRA VERÍSSIMO
