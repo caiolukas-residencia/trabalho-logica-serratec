@@ -11,11 +11,11 @@ programa
 		escreva("Digite uma palavra ou frase: \n")
 		leia(frase)
 
-		frase = limparFrase(frase) //Remove espaços, vírgulas e hífens
+		frase = limparFrase(frase) //Remove espaços, vírgulas e hífens da entrada do usuário
 
-		frase = Texto.caixa_baixa(frase) //Deixa todos os caracteres em caixa baixa
+		frase = Texto.caixa_baixa(frase) //Deixa todos os caracteres da entrada do usuário em caixa baixa
 
-		tamanho = Texto.numero_caracteres(frase) //Conta o número de caracteres
+		tamanho = Texto.numero_caracteres(frase) //Conta o número de caracteres da entrada do usuário
 
 		se(ehPalindromo(frase, 0, tamanho -1)) {
 			escreva("\nÉ um Palíndromo")
@@ -25,7 +25,7 @@ programa
 		}
 	}
 
-	//Função criada para remover espaços, vírgulas e hífens
+	//Função para remover espaços, vírgulas e hífens
 	funcao cadeia limparFrase(cadeia p) {
 
 		inteiro tamanho = Texto.numero_caracteres(p)
@@ -35,7 +35,7 @@ programa
 		para(inteiro i = 0; i < tamanho; i++) {
 			caracterAtual = Texto.obter_caracter(p, i)
 
-			se(caracterAtual != ' ' e caracterAtual != '-' e caracterAtual != ',') {
+			se(caracterAtual != ' ' e caracterAtual != '-' e caracterAtual != ',') { //Desvalida alguns caracteres
 				semEspacos = semEspacos + caracterAtual
 			}
 		}
@@ -44,17 +44,17 @@ programa
 
 	//Função para verificação
 	funcao logico ehPalindromo(cadeia p, inteiro init, inteiro fim) {
-
-		se(Texto.numero_caracteres(p) == 0) { //Se a entrada não tiver o numero de caracteres > 0 retorna falso
+		//Se a entrada não tiver o numero de caracteres > 0 retorna falso
+		se(Texto.numero_caracteres(p) == 0) { 
 			retorne falso
 		}
-		
-		se(init >= fim) {	//Se o valor da verificação decrescente for maior que a descresente retorna verdadeiro
+		//Se o valor da verificação decrescente for maior que a descresente retorna verdadeiro
+		se(init >= fim) {	
 			retorne verdadeiro		
 		}
-
-		se(Texto.obter_caracter(p, init) != Texto.obter_caracter(p, fim)) { //Se os valores nos ídices crescentes e decrescentes
-			retorne falso										//forem diferentes retorna falso
+		//Se os valores nos ídices crescentes e decrescentes forem diferentes retorna falso
+		se(Texto.obter_caracter(p, init) != Texto.obter_caracter(p, fim)) {
+			retorne falso										
 		}
 		//Chamada recursiva da função que valida os próximos caracteres (do inicio e fim)
 		retorne ehPalindromo(p, init + 1, fim - 1)
@@ -66,7 +66,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 206; 
+ * @POSICAO-CURSOR = 187; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

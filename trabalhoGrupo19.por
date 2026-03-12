@@ -21,8 +21,9 @@ programa
 				leia(numero)
 				numeroAnterior = numero
 				quantidade++
-				
-			} senao se(numero == 0) { //Considerei zero != positivo e != negativo, pesquisei e descobri que isso é um consenso universal
+
+			//Considerei zero != positivo e != negativo
+			} senao se(numero == 0) {
 
 				escreva("\n0 não é valido, digite outro número inteiro")
 				numero = 1
@@ -40,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 535; 
+ * @POSICAO-CURSOR = 215; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {quantidade, 8, 10, 10};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

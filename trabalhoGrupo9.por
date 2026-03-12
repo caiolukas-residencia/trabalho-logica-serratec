@@ -14,10 +14,10 @@ programa
 
 	//Função recursiva
 	funcao inteiro fibonacci(inteiro n) {
-		se(n == 0){ //O valor no índice 0 = 0
+		se(n == 0){ //O valor no índice 0 na sequência de fibonacci equivale a 0
 			retorne 0
 			
-		} senao se(n == 1) { //O valor no índice 1 = 1
+		} senao se(n == 1) { //O valor no índice 1 na sequência de fibonacci equivale a 1
 			retorne 1
 			
 		}senao { //Cálculo recursivo
@@ -31,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 571; 
+ * @POSICAO-CURSOR = 321; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
