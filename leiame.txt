@@ -10,16 +10,8 @@ Este repositório visa armazenar os trabalhos propostos na disciplina de Lógica
 As atividades ficaram distribuídas da seguinte forma:
 
 8, 13, 15 	- Yasmim
-<<<<<<< HEAD
 1, 3, 17 	- Ivy
 7, 9, 19	- Emanuel
 4, 10, 18 	- Caio
 11, 16, 20 	- Pedro
 2, 5, 21 	- Jose
-=======
-1, 3, 17 	  - Ivy
-7, 9, 19	  - Emanuel
-4, 10, 18 	- Caio
-11, 16, 20 	- Pedro
-2, 5, 21 	  - Jose
->>>>>>> 37ee9b642b2f4dc1a4a6fbce24838fb1dad7ad3f
