@@ -6,3 +6,12 @@ Este repositório visa armazenar os trabalhos propostos na disciplina de Lógica
 - JOSÉ RICARDO DE MELLO
 - PEDRO PINTO MARTINS DE SOUZA
 - YASMIM FERREIRA VERÍSSIMO
+
+As atividades ficaram distribuídas da seguinte forma:
+
+8, 13, 15 	- Yasmim
+1, 3, 17 	  - Ivy
+7, 9, 19	  - Emanuel
+4, 10, 18 	- Caio
+11, 16, 20 	- Pedro
+2, 5, 21 	  - Jose
